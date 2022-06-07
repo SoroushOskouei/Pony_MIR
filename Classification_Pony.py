@@ -18,7 +18,10 @@ SVM_clf=svm.SVC(gamma='scale', decision_function_shape='ovo')
 
 ''' Loading the data '''
 
-dataframe = pd.read_csv('PonyMIRDataFull.csv',header=None)
+print('Type the name of the CSV data to be used:')
+name=input()
+
+dataframe = pd.read_csv(name,header=None)
 Names=dataframe[0].values.tolist()
 wavelength = pd.DataFrame([*range(1,523,1)])
 
