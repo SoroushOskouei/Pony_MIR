@@ -1,5 +1,5 @@
 ''' Regression models made for pony DD values 
-Made for UEF BBC group project 17.24.2022
+Made for UEF BBC group project 24.06.2022
 by Soroush Oskouei
 '''
 
