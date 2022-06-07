@@ -50,6 +50,8 @@ for NIPPYNUM in range(len(datasets)):
   X=[]
   Y=[]
   ponies=[]
+  
+  ''' Select the wanted groups for analysis '''
 
   for i in Names:
   # unhealthy
