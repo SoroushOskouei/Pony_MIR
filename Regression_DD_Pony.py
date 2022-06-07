@@ -10,7 +10,9 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 
 print('File name:')
-name='Blunts_V_B2.csv'
+name=input()
+
+''' example: name='Blunts_V_B2.csv' '''
 
 
 print('0-5 or 0-10')
